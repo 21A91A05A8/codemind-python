@@ -1,0 +1,15 @@
+n=int(input())
+c=0
+dc=0
+while(n):
+  d=n%10
+  n=n//10
+  c+=1
+  if(d%2==0):
+     dc+=1
+if(dc==c):
+  print("Even")
+elif(dc==0):
+  print("Odd")
+else:
+  print("Mixed")
