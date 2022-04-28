@@ -1,0 +1,10 @@
+n=int(input())
+mul=1
+sum=0
+while(n):
+    d=n%10
+    n=n//10
+    sum+=d
+    mul*=d
+diff=abs(sum-mul)  
+print(diff)
