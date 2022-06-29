@@ -11,4 +11,4 @@ for j in range(1,y):
 if(sum1==y and sum2==x):  
     print('Amicable')  
 else:  
-    print('Not Amicable')  
+    print('Not Amicable')
