@@ -15,4 +15,4 @@ while (j!=0):
 if jrev==i:
     print("True")
 else:
-    print("False");
+    print("False")
