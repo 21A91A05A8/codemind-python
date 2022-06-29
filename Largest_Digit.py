@@ -5,4 +5,4 @@ while(n>0):
     n=n//10
     if(d>max):
         max=d
-print(max)    
+print(max)
