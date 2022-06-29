@@ -24,4 +24,4 @@ def selfDividingNumbers(left, right):
     return out
 left=int(input())
 right=int(input())
-print(*selfDividingNumbers(left, right))   
+print(*selfDividingNumbers(left, right))
