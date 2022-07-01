@@ -8,4 +8,4 @@ for element in a:
 for element in b:
     if(element not in a and element not in res):
         res.append(element)        
-print(*res)    
+print(*res)
