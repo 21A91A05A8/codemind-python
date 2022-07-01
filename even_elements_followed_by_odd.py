@@ -7,4 +7,4 @@ for i in range(0,len(arr)):
 for i in range(0,len(arr)):
     if arr[i]%2:
         res.append(arr[i])
-print(*res)  
+print(*res)
