@@ -6,4 +6,3 @@ for element in a:
     if(element in b and element not in res):
         res.append(element)
 print(*res)
-        
