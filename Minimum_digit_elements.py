@@ -15,4 +15,4 @@ b=min(l)
 for j in range(0,len(l)):
     if(l[j]==b):
         c+=1
-print(c)        
+print(c)
