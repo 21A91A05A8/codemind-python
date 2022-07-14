@@ -1,12 +1,12 @@
 n=int(input())
-a=list(map(int,input().split()))
-l=[]
-c=0
-for i in a:
-    if i not in l:
-        l.append(i)
-for j in range(0,len(l)):
-    r=a.count(l[j])
-    if r==l[j]:
-        c+=1
-print(c)
+l=list(map(int,input().split()))
+a=[]
+for i in l:
+    r=l.count(i)
+    if i not in a:
+        if r==i:
+            a.append(r)
+if len(a)==0:
+    print("0")
+else:
+    print(len(a))
