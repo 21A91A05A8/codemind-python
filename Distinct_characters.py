@@ -1,12 +1,12 @@
 s=input()
 s=s.lower()
-v=''
+s1=''
 for i in s:
     if s.count(i)==1:
-        v+=i
-r=sorted(v)
+        if i not in s1:
+            if i==' ':
+                continue
+            s1+=i
+r=sorted(s1)
 for i in r:
-    if i==' ':
-        continue
-    else:
-        print(i,end='')
+    print(i,end='')
