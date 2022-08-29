@@ -2,11 +2,13 @@ s1=input()
 s2=input()
 s1=s1.lower()
 s2=s2.lower()
-s3=''
+s=''
+c=0
 for i in s1:
     if i in s2:
-        if i not in s3:
+        if i not in s:
             if i==' ':
                 continue
-            s3+=i
-print(len(s3))
+            s+=i
+            c+=1
+print(c)
