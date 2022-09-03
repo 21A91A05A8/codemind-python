@@ -33,7 +33,6 @@ def isWaveArray(arr , n):
  
     return result
 if __name__ == "__main__":
- 
     n=int(input())
     arr=list(map(int,input().split()))
     if (isWaveArray(arr, n)):
