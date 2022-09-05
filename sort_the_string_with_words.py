@@ -1,4 +1,4 @@
 s=input()
-words=s.split()
-r=sorted(words)
-print(*r)
+s=s.split()
+s=sorted(s)
+print(*s)
